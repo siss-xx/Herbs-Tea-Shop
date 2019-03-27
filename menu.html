@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ginger, every cup of tea made of Love!</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- Bootstrap & style sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="navigation">
+    <!-- <div class="container-fluid"> -->
+    <div class="navigationdiv">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img class="logo" src="images/logoherb.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartea">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbartea">
+
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#hotbeverages">Hot Beverages</a>
+                <a class="dropdown-item" href="#coldbeverages">Cold Beverages</a>
+                <a class="dropdown-item" href="#medbeverages">Medicinal Tea</a>
+                <a class="dropdown-item" href="#coffee">Coffee</a>
+              </div>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="index.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Contact</a>
+            </li>
+          </ul>
+
+          <h5>Opening Hours : </h5>
+          <div class="hours">
+            <p class="hours-p">
+              Monday-Saturday: 8am to 5pm
+            </p>
+            <hr class="style1" />
+            <p class="hours-p">
+              Sunday: 9am to 4pm
+            </p>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+
+  <section id="menu-main">
+    <div class="container-fluid">
+      <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-2" data-slide-to="1"></li>
+          <li data-target="#carousel-example-2" data-slide-to="2"></li>
+          <li data-target="#carousel-example-2" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="view">
+              <img class="d-block w-100" src="images/teacup2.jpg" alt="First slide">
+              <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-content">
+              <h3>HOT BEVERAGES</h3>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img class="d-block w-100" src="images/icy2.png" alt="second slide">
+            </div>
+            <div class="carousel-content">
+              <h3>COLD BEVERAGES</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img class="d-block w-100" src="images/3.jpg" alt="Third slide">
+              <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-content">
+              <h3>HAND-PICK!</h3>
+              <div class="carousel-caption">
+                <p class="carousel-p"> It's all up to you! You can mix & match our available herbs for unique tea experience!</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="view">
+              <img class="d-block w-100" src="images/coffee2.jpg" alt="fourth slide">
+              <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-content">
+              <h3>FOR COFFEE LOVERS</h3>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+  <section id="menu-header">
+    <div class="container-fluid">
+      <div class="menu-header">
+        <h2><strong>MENU</strong></h2>
+        <h3>Sip a cup tea & have a healthy refreshment!</h3>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="hotbeverages">
+    <div class="container">
+      <button type="button" class="hot-btn" ><h2>HOT BEVERAGES</h2></button>
+
+</div>
+
+          <div class="row hotbeverage-row">
+
+        <div class=" hot-col col-md-6 ">
+            <ul class="menu-ul">
+                  <li>
+                  <h4 class="menu-li-h4" >AUTHENTIC CARDOMOM TEA</h4>
+                  <P class="menu-li-p">
+                    tea leaves, cardomom, honey
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >TURMERIC TEA</h4>
+                  <P class="menu-li-p">
+                    turmeric, milk, pepper, honey
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >APPLE TEA</h4>
+                  <P class="menu-li-p">
+                  green tea, cinnamon, apples
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >MINT GREEN TEA</h4>
+                  <P class="menu-li-p">
+                  fresh mint leaves, green tea, lemon juice, honey
+                  </P>
+
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >SOOTHING LAVENDER TEA</h4>
+                  <P class="menu-li-p">
+                    dried organic lavender, fresh mint leaves
+                  </P>
+
+                </li>
+
+
+          </ul>
+
+        </div>
+        <div class="hot-col col-md-6">
+        <ul class="menu-ul">
+              <li>
+              <h4 class="menu-li-h4" >AUTHENTIC MASALA TEA</h4>
+              <P class="menu-li-p">
+                tea leaves, cardomom, honey
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >HOT HONEY LEMON TEA</h4>
+              <P class="menu-li-p">
+            honey, lemon
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >BASIC BLACK TEA</h4>
+              <P class="menu-li-p">
+                tea leaves, hot water
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >CLASSIC TEA</h4>
+              <P class="menu-li-p">
+                tea leaves, milk
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >ORANGE GREEN TEA</h4>
+              <P class="menu-li-p">
+                orange, green tea, honey
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >SUN BREWED TEA</h4>
+              <P class="menu-li-p">
+                tea brewed in sunlight
+              </P>
+            </li>
+
+
+        </ul>
+  </div>
+        </div>
+
+    </div>
+  </section>
+
+  <section id="coldbeverages">
+    <div class="container">
+      <button type="button" class="cold-btn" ><h2>COLD BEVERAGES</h2></button>
+
+</div>
+
+          <div class="row hotbeverage-row">
+
+        <div class=" hot-col col-md-6 ">
+            <ul class="menu-ul">
+                  <li>
+                  <h4 class="menu-li-h4" >GREEN TEA HONEY REFRESHER</h4>
+                  <P class="menu-li-p">
+                  green tea, honey, lemon
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" > CHASTO COLD-BREWED TEA</h4>
+                  <P class="menu-li-p">
+                    Chamomile,Strawberry,Orange
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >POMEGRANATE LIME ICED TEA</h4>
+                  <P class="menu-li-p">
+                  tea, pomegranate, fresh lime juice
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >CLASSIC LEMONADE TEA</h4>
+                  <P class="menu-li-p">
+                  fresh lemon juice, honey
+                  </P>
+
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >CLASSIC MINT ICED TEA</h4>
+                  <P class="menu-li-p">
+                    fresh mint leaves, tea
+                  </P>
+                </li>
+          </ul>
+
+        </div>
+        <div class="hot-col col-md-6">
+        <ul class="menu-ul">
+              <li>
+              <h4 class="menu-li-h4"> PEACHY ICED TEA</h4>
+              <P class="menu-li-p">
+                peach, tea, lemon juice
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >DELICIOUS SANGRIA</h4>
+              <P class="menu-li-p">
+          grape juice, lemon, lime, orange, puréed raspberries
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >BASIC BLACK TEA</h4>
+              <P class="menu-li-p">
+                tea leaves, hot water
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >HIBISCUS & SAFFRON ICED TEA</h4>
+              <P class="menu-li-p">
+              hibiscus, saffron, tea
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >WATERMELON & BASIL ICED TEA</h4>
+              <P class="menu-li-p">
+                watermelon, basil, tea, honey
+              </P>
+            </li>
+        </ul>
+  </div>
+ </div>
+    </div>
+  </section>
+  <section id="medbeverages">
+    <div class="container">
+      <button type="button" class="med-btn"><h2>MEDICINAL TEAS</h2></button>
+    </div>
+
+          <div class="row hotbeverage-row">
+
+        <div class=" hot-col col-md-6 ">
+            <ul class="menu-ul">
+                  <li>
+                  <h4 class="menu-li-h4" >GINGER CINNAMON TEA</h4>
+                  <P class="menu-li-p">
+                  ginger, cinnamon (improves digestion)
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >HONEY GINGER TEA</h4>
+                  <P class="menu-li-p">
+                    ginger, honey (for cough & cold)
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >DETOX TEA</h4>
+                  <P class="menu-li-p">
+                  ginger, lemon juice, cloves, cinnamon, lemon grass, basil, honey
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >DIABETIC TEA</h4>
+                  <P class="menu-li-p">
+                chinese tea, sliced bananas, sliced strawberries
+                </P>
+                </li>
+
+          </ul>
+        </div>
+        <div class="hot-col col-md-6">
+        <ul class="menu-ul">
+              <li>
+              <h4 class="menu-li-h4" >SPECIAL TEA FOR EXPECTANT MOMS </h4>
+              <P class="menu-li-p">
+                nettle, red raspberry leaf, chamomile, lemon balm, oat straw, lavender
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >NUTRITIOUS TEA BLEND</h4>
+              <P class="menu-li-p">
+                oat straw, red raspberry leaves, dried peppermint leaves
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >FENNEL TEA</h4>
+              <P class="menu-li-p">
+              fennel seeds( for constipation)
+              </P>
+            </li>
+          </ul>
+  </div>
+        </div>
+
+    </div>
+  </section>
+
+  <section id="coffee">
+    <div class="container">
+      <button type="button" class="coffee-btn"><h2>COFFEE LOVERS</h2></button>
+    </div>
+
+          <div class="row hotbeverage-row">
+
+        <div class=" hot-col col-md-6 ">
+            <ul class="menu-ul">
+                  <li>
+                  <h4 class="menu-li-h4" >CAPPUCCINO</h4>
+                  <P class="menu-li-p">
+                rich espresso blended with steamed milk and topped with a deep layer of foam.
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >MOCHA</h4>
+                  <P class="menu-li-p">
+                    chocolate melted into steamed milk, combined with our rich espresso and topped with whipped cream and chocolate chips.
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >LATTE</h4>
+                  <P class="menu-li-p">
+                rich espresso combined with creamy steamed milk.
+                  </P>
+                </li>
+                <li>
+                  <h4 class="menu-li-h4" >AMERICANO</h4>
+                  <P class="menu-li-p">
+                rich espresso and hot water create this bolder version of traditional brewed coffee.
+                </P>
+                </li>
+
+          </ul>
+        </div>
+        <div class="hot-col col-md-6">
+        <ul class="menu-ul">
+              <li>
+              <h4 class="menu-li-h4" >MACCHIATO </h4>
+              <P class="menu-li-p">
+                espresso topped with steamed milk foam
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >HOT CHOCOLATE</h4>
+              <P class="menu-li-p">
+              real chocolate melted into steamed milk and topped with whipped cream and chocolate chips.
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >CARAMEL HIGH RISE</h4>
+              <P class="menu-li-p">
+            freshly steamed milk with espresso and caramel topped with whipped cream and caramel sauce.
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >ICED TURTLE MOCHA</h4>
+              <P class="menu-li-p">
+            premium chocolate and espresso combined with milk and caramel and served over ice
+              </P>
+            </li>
+            <li>
+              <h4 class="menu-li-h4" >MORE</h4>
+              <P class="menu-li-p">
+          Iced version of all the above hot beverages are also available.
+              </P>
+            </li>
+          </ul>
+  </div>
+        </div>
+
+    </div>
+  </section>
+  <div class="thanks">
+    <h4>HERBS TEA SHOP</h4>
+    <h6>Call us : 213853852845485  |  Mail us : herbsteashop@gmail.com</h6>
+  </div>
+
+
+  <footer class="footer" id="contact">
+<div class="follow">
+  <h6>FOLLOW US</h6>
+</div>
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f fa-x"></i>
+      <i class="social-icon fab fa-twitter fa-x"></i>
+      <i class="social-icon fab fa-instagram fa-x"></i>
+      <i class="social-icon fas fa-envelope fa-x"></i>
+      <p> Copyright © Elegant Ladybird</p>
+    </div>
+  </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
