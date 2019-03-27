@@ -192,7 +192,7 @@ padding:0;
   filter: grayscale(100%)
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
