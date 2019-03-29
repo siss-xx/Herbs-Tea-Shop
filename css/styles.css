@@ -22,11 +22,12 @@ body{
 .nav-item{
   padding: 0 18px;
 }
+
 .navbar{
   padding:2px 5px;
 }
 .nav-link{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family:'Arapey',serif;
   /* font-weight: bold; */
   color: #FFF;
@@ -44,6 +45,7 @@ p{
 }
 .hours-p{
   color:#fff;
+  font-size:1.3rem;
 }
 .style1{
 	border-top: 1px solid #d35400;
@@ -55,13 +57,16 @@ a:hover{
   color:#010101;
 }
 h5{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family:'Arapey',serif;
   /* font-weight: bold; */
   color: #40fc39;
   margin-right:15px;
 
 }
+
+
+
 
 .heading-container{
   background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.8)) , url("../images/teanew4.jpg") no-repeat center;
@@ -72,14 +77,25 @@ h5{
   justify-content: center;
   align-items: center;
   transform-style: preserve-3d;
-	
+
 
     }
+
+    @keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 /* .heading-container>div{
 
-  background: rgb(0, 0, 0); /* Fallback color */
-/*   background: rgba(0, 0, 0, 0.4);
-} */ 
+  /* background: rgb(0, 0, 0); /* Fallback color
+  /* background: rgba(0, 0, 0, 0.4); */
+
 
 
 h1{
@@ -90,7 +106,7 @@ h1{
 .slogan{
   color:#d35400;
   /* color:#E2495B; */
-  font-size:3rem;
+  font-size:3.5rem;
   font-weight: bold;
   }
 
@@ -104,7 +120,7 @@ h1{
 }
 
 .about-text{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color:#fff;
   padding:30px;
   text-align:justify;
@@ -123,9 +139,9 @@ h1{
 
 
   blockquote {
-    font-size: 1.4em;
+    font-size: 1.5em;
     width: 70%;
-    margin: 90px auto;
+    margin: 50px auto;
     font-style: italic;
     color: #555555;
     padding: 1.9em 40px 1.9em 80px;
@@ -133,6 +149,7 @@ h1{
     line-height: 1.6;
     position: relative;
     background: #EDEDED;
+    margin: 80px auto;
 }
 
 blockquote::before {
@@ -153,7 +170,6 @@ blockquote span{
   color:#333333;
   font-style: normal;
   font-weight: bold;
-  
 }
 
 
@@ -199,6 +215,7 @@ padding:0;
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
+    overflow:hidden;
   }
 }
 
@@ -233,7 +250,7 @@ padding:0;
 font-size:2.8rem;
 font-weight:bold;
 color: #fff;
-/* padding-bottom: 20px; */
+padding-bottom: 20px;
 
 }
 .btn{
@@ -242,7 +259,7 @@ color: #fff;
   border: 2px solid #40fc39;
   border-radius:5px;
   padding:8px 15px;
-  font-size:1rem;
+  font-size:1.4rem;
   margin-bottom:30px;
 
 }
@@ -267,18 +284,18 @@ color: #fff;
 }
 .contact-heading{
   font-weight:bold;
-font-size: 2.7rem;
+font-size: 3rem;
  color: #40fc39;
   padding: 50px 20px 30px;
 }
 .contact-heading-text{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
       padding: 0;
       color: #40fc39;
       margin: 50px 0 10px;
 }
 .contact-para{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
     color: #ffffff;
     padding: 20px 50px 30px;
 }
@@ -353,12 +370,12 @@ font-size: 2.7rem;
 .menu-header h2 {
 
   color:#40fc39;
-  font-size: 4vw;
+  font-size: 3rem;
 }
 .menu-header h3{
   color:#fff;
   font-family: 'Pacifico', cursive;
-  font-size:2vw;
+  font-size:2rem;
 }
 
 .d-block{
@@ -399,7 +416,7 @@ font-size: 2.7rem;
     max-width:100%;
     border: 2px solid #40fc39;
     border-radius: 5px;
-      font-size: 4.5vw;
+      font-size: 3rem;
     margin-bottom: 30px;
     width: 100%;
     height: 200px;
@@ -419,7 +436,7 @@ font-size: 2.7rem;
   padding:30px;
 }
 .menu-li-h4{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 text-decoration: none;
     color: #d35400;
     line-height: 1.5;
@@ -428,7 +445,7 @@ text-decoration: none;
     font-weight: 900;
 }
 .menu-li-p{
-  font-size:1.2rem;
+  font-size:1.5rem;
       padding-bottom: 30px;
       font-family: 'PT Serif', serif;
 }
@@ -451,7 +468,7 @@ text-decoration: none;
     max-width:100%;
     border: 2px solid #40fc39;
     border-radius: 5px;
-      font-size: 4.5vw;
+      font-size:3rem;
     margin-bottom: 30px;
     width: 100%;
     height: 200px;
@@ -475,7 +492,7 @@ text-decoration: none;
     max-width:100%;
     border: 2px solid #40fc39;
     border-radius: 5px;
-      font-size: 4.5vw;
+      font-size: 3rem;
     margin-bottom: 30px;
     width: 100%;
     height: 200px;
@@ -495,7 +512,7 @@ text-decoration: none;
     max-width:100%;
     border: 2px solid #40fc39;
     border-radius: 5px;
-      font-size: 4.5vw;
+      font-size: 3rem;
     margin-bottom: 30px;
     width: 100%;
     height: 200px;
